@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 
 bot.on('ready', function () {
-	bot.user.setPresence({ game: { name: 'Aide Mewthree à gerer le serveur!', type: "streaming", url: "https://www.twitch.tv/kortexbot"}});
+	bot.user.setPresence({ game: { name: 'Fait des test', type: "streaming", url: "https://www.twitch.tv/kortexbot"}});
   console.log("Connecte")
 });
 
