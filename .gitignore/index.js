@@ -19,5 +19,5 @@ bot.on("guildMemberAdd", member => {
 
 
 
-bot.login('NTcxMzY0MjAwMjQ5Njg4MTAz.XMMq8g.mVY0S3mZg_TbyFIGCoLKr7XZPDM');
+bot.login(process.env.TOKEN)
 
